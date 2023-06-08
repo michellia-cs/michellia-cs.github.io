@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Eteris</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link href="style1.css" rel="stylesheet">
+
+</head>
+<body>
+    
+<!-- header starts -->
+
+    <header class="header">
+        
+        <section class="flex">
+
+        <img class="logo" src="images/Logo_Eteris.png">            
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="quiz.html">Quiz</a>
+        </nav>
+
+        <div class="icons">
+            <a href="search.html"><i class="fas fa-search"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <div class="profile">
+            <p class="name">Michellia Cempaka</p>
+            <div class="flex">
+                <a href="profile.html" class="btn">Profile</a>
+                <a href="#" class="delete-btn">logout</a>
+            </div>
+        <p class="account"><a href="login.html">login</a> or
+            <a href="register.html">register</a></p>
+        </div>
+
+    </section>
+        
+</header>
+
+<!-- header ends -->
+
+<!-- Section of Quiz starts -->
+
+<section class="quiz">
+
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h2 id="question"> Apa yang sedang kamu butuhkan?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_text">Penolak nyamuk</label>
+                        <br>
+                        <img src="images/nyamuk.jpg">
+                    </li>
+                    
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text">Mengurangi rasa gatal pada kulit</label>
+                        <br>
+                        <img src="images/gatal.jpg">
+                    </li>
+                    
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text">Pengharum ruangan</label>
+                        <br>
+                        <img src="images/aromaterapi.jpg">
+                    </li>
+                    
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="_text">Memperbaiki kualitas tidur</label>
+                        <br>
+                        <img src="images/tidur.jpg">
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="e" class="answer">
+                        <label for="e" id="_text">Anti-aging</label>
+                        <br>
+                        <img src="images/serum.jpg">
+                    </li>
+                    
+                    <li>
+                        <input type="radio" name="answer" id="e" class="answer">
+                        <label for="e" id="_text">Alasan kesehatan lainnya</label>
+                        <br>
+                        <img src="images/obat.jpg">
+                    </li>
+                </ul>
+            </div>
+            <button id="submit">Submit</button>
+        </div>    
+</section>
+
+
+
+<!-- Section of Quiz ends -->
+
+<!-- footer starts -->
+
+<footer class="footer">
+    <div class="credit">Copyright © 2023 - All Rights Reserved - ETERIS
+    </div>
+</footer>
+
+<!-- footer ends -->
